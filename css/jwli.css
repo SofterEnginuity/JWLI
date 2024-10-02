@@ -1,0 +1,575 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+  background-color: white;
+
+
+}
+
+
+.topnav ul li {
+  list-style: none;
+  display: inline;
+  margin-right: 75px;
+  margin-left: 70px;
+
+}
+
+.top {
+  height: 300px
+}
+
+.top1 {
+  width: 100%;
+  background-color: rgb(241, 243, 245);
+  float: left;
+
+}
+
+.top1L,
+.top2L {
+  width: 50%;
+
+  float: left;
+}
+
+.logo {
+  margin-left: 260px;
+  margin-top: 25px;
+}
+
+.email {
+  width: 60%;
+}
+
+.submit {
+  background-color: rgb(139, 152, 159);
+  width: 30%;
+  outline: 1px solid black;
+}
+
+.top2 {
+  text-align: center;
+  width: 100%;
+
+}
+
+.top2 h2 {
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+}
+
+.top2 p {
+  text-align: center;
+}
+
+.top2left p {
+  width: 50%;
+  float: left;
+}
+
+.top2right p {
+  width: 50%;
+  float: left;
+}
+
+.top2left {
+
+  width: 100%;
+  font-size: 16px;
+}
+
+.boston {
+  width: 75%;
+  text-align: center;
+  margin-top: 35px;
+  margin-left: 114px;
+  margin-right: 40px;
+}
+
+.history {
+  height: 326px;
+  float: left;
+  background-color: rgb(241, 243, 245);
+}
+
+.hpic {
+  float: left;
+}
+
+
+.hleft {
+  float: left;
+  width: 55%;
+
+}
+
+.hpic {
+  width: 45%;
+
+  float: left;
+  height: 212px;
+}
+
+.founder {
+
+  height: 277px;
+
+}
+
+.whoweare-section {
+  width: 100%;
+  display: block;
+  height: 30px;
+}
+
+.found {
+  width: 55%;
+}
+
+.ftop {
+  float: left;
+  widtH: 100%;
+  margin-top: 30px;
+  background-color: rgb(184, 197, 208);
+}
+
+
+.lady {
+  width: 25%;
+}
+
+.who {
+  width: 100%;
+  float: left;
+  height: 25%;
+}
+
+.Atusko {
+  width: 75%;
+  float: left;
+}
+
+
+.whoright {
+  height: 125px;
+  width: 45%;
+  float: left;
+}
+
+.wholeft {
+  width: 45%;
+  float: left;
+}
+
+.j {
+  font-weight: bold;
+}
+
+.fbot {
+  width: 100%;
+  background-color: rgb(143, 156, 163)
+}
+
+.fbot li {
+  list-style: none;
+}
+
+
+.social {
+  float: left;
+  width: 50%;
+  margin-top: 40px;
+}
+
+.social li {
+  display: inline-block;
+}
+
+.home {
+  float: left;
+  width: 19%;
+
+}
+
+.fish {
+  font-weight: bold;
+}
+
+.social {
+  float: left;
+  width: 50%;
+  margin-top: 18px;
+  margin-left: 117px;
+}
+
+.h {
+  font-weight: bold;
+}
+
+.program {
+  float: left;
+  width: 19%;
+}
+
+.p {
+  font-weight: bold;
+}
+
+.jwlia {
+  float: left;
+  width: 19%;
+}
+
+.j {
+  font-weight: bold;
+}
+
+.contact {
+  float: left;
+  width: 19%;
+  font-weight: bold;
+
+}
+
+.footer {
+  width: 100%;
+  float: left;
+  margin-top:20%;
+}
+
+.fbot {
+  width: 100%;
+  background-color: rgb(143, 156, 163);
+  height: 250px;
+  margin-top: 97px;
+
+}
+
+br {
+  height: 2px;
+  width: 80%;
+  color: green;
+}
+
+.dinner,
+.speaker {
+  margin-top: 6px;
+  width: 49%;
+  margin-left: 3px;
+}
+
+/******************************************
+/* MEDIA QUERY ONE
+/*******************************************/
+@media (min-width:0px) and (max-width:766px) {
+
+  .dinner,
+  .speaker {
+    margin-top: 6px;
+    width: 60%;
+    margin-left: 3px;
+  }
+
+  .social {
+    float: left;
+    width: 50%;
+    margin-top: 18px;
+    margin-left: 117px;
+  }
+
+  .history {}
+
+  .lorem {
+    font-size: 17px;
+  }
+
+  .top1L,
+  .top2L {
+    width: 50%;
+
+    float: left;
+    margin-left: 185px;
+  }
+
+  .social {
+    float: left;
+    width: 50%;
+    margin-top: 18px;
+    margin-left: 117px;
+  }
+
+  .found {
+    margin-top: 5px;
+  }
+
+  .hpic {
+    height: 490px;
+  }
+
+  .founder {
+    height: auto;
+  }
+
+  .lady {
+    width: 25%;
+    float: left;
+  }
+
+
+  .founder {
+    float: left;
+  }
+
+  .wholeft {
+    float: left;
+  }
+
+  .whoright {
+    height: auto;
+    float: left;
+  }
+
+  .ftop {
+    float: left;
+
+  }
+
+  .Atusko {
+    width: 75%;
+    float: left;
+  }
+
+  .ftop h2 {
+    float: left;
+  }
+
+  .fbot {
+    float: left;
+    width: 100%;
+  }
+
+  .social {
+    float: left;
+    width: 50%;
+    margin-top: 18px;
+    margin-left: 29px;
+    margin-right: 190px;
+  }
+}
+
+/******************************************
+/* MEDIA QUERY TWO
+/*******************************************/
+
+
+
+
+@media (min-width:767px) and (max-width:1023px) {
+  .social {
+    float: left;
+    width: 50%;
+    margin-top: 18px;
+    margin-left: -1px;
+  }
+
+  .top1L,
+  .top2L {
+    width: 50%;
+
+    float: left;
+    margin-left: 200px;
+  }
+
+  .email {
+    width: 45%;
+    float: left;
+    margin-left: 70px;
+  }
+
+  .Atusko {
+    width: 100%;
+    float: left;
+  }
+
+  .submit {
+    background-color: rgb(139, 152, 159);
+    width: 9%;
+    float: left;
+  }
+
+  .signup {
+    float: left;
+  }
+
+  .whoright {
+    height: 125px;
+    float: left;
+  }
+
+  .copy {
+    float: left;
+    margin-left: -87;
+  }
+
+  .wholeft {
+    float: left;
+  }
+
+  .who {
+    margin-left: 290px;
+  }
+
+  .found {
+
+    margin-left: 270px;
+    width: 100%;
+  }
+
+  .found {
+    width: 55%;
+    margin-left: 270px;
+  }
+
+  .bos {
+    float: left;
+
+  }
+
+  .submit {
+    width: 9%;
+
+    float: left;
+    margin-top: 27px;
+  }
+
+  .sim {
+    float: left;
+    width: 100%;
+  }
+
+  .lor {
+    float: left;
+  }
+
+  .email {
+    width: 25%;
+    float: left;
+    margin-left: 70px;
+    margin-top: 24px;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/******************************************
+/* MEDIA QUERY THREE
+/*******************************************/
+.who {
+  margin-left: 460px;
+}
+
+@media (min-width:1024px) {
+  .social {
+    float: left;
+    width: 50%;
+    margin-top: 18px;
+    margin-left: 117px;
+  }
+
+  .email {
+    width: 25%;
+    float: left;
+    margin-left: 70px;
+    margin-top: 24px;
+  }
+
+  .Atusko {
+    width: 100%;
+    float: left;
+  }
+
+  .wholeft {
+
+    float: left;
+  }
+
+  .submit {
+    background-color: rgb(139, 152, 159);
+    width: 9%;
+
+    float: left;
+    margin-top: 27px;
+  }
+
+  .found {
+
+
+    margin-left: 400px;
+    width: 100%;
+  }
+
+  .sim {
+    float: left;
+    width: 100%;
+  }
+
+  .lor {
+    float: left;
+  }
+
+  .found {
+    float: left;
+  }
+
+  .whoright {
+
+    height: 125px;
+    float: left;
+  }
+
+  .copy {
+    float: left;
+    margin-left: -87;
+  }
+
+  .signup {
+    float: left;
+  }
+
+}
