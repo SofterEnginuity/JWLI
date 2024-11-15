@@ -6,8 +6,8 @@ This page is a responsive version of a Japanese Women's Leadership website.
 
 **Link to project:**https://jwlimarkup.netlify.app/
 
-![alt tag](https://i.imgur.com/QLIwjgi.png)
 
+<img src="https://i.imgur.com/QLIwjgi.png" width=40% height=40%>
 ## How It's Made:
 
 **Tech used:** HTML, CSS
